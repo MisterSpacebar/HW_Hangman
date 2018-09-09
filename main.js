@@ -29,7 +29,7 @@ function gameLoop(){
     while(guessCount>0){
         document.getElementById("wordGame").innerHTML=answerArray.join(" ");
 
-        var guess = prompt("guess a letter");
+        var guess = keyGet(document.getElementById("textInput"));
         // if(guess===null){
         //     break;
         // } else {
