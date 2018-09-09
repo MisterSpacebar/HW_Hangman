@@ -1,0 +1,35 @@
+body {
+    background-color: gray;
+}
+
+h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#wordGame {
+    display: block;
+    margin: 0 auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 55px;
+}
+
+#guessCounts {
+    text-align: center;
+    margin: 0 auto;
+}
+
+input {
+    display: block;
+    margin: 0 auto;
+    display: none;
+}
+
+.jumbotron {
+    background-color: aliceblue;
+}
+
+#directions {
+    text-align: center;
+    color: darkcyan;
+}
