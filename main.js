@@ -60,6 +60,7 @@ function gameLoop(){
                 }
             }
         } else {
+            document.getElementById("countGuesses").innerHTML = guessCount+" guesses left";
             guessCount--;
             counter--;
         }
